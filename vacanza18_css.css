@@ -1,6 +1,6 @@
 body{
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	background:url("background.png"); 
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -36,13 +36,13 @@ h4{
 }
 
 #vaclogo img{
-	padding-top: 115px;
+	padding-top: 100px;
 }
 
 #vac{
 	border: none;
-	margin: 0 0 0 0;
-	padding: 25px 0 0 0;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 	height: auto;
 	width: 50%;
 	display: block;
@@ -64,12 +64,12 @@ h4{
 
 #boxmain{
 	margin: 0px 0px 0px 0px;
-	padding: 0 0 0 0;
+	padding: 10px 0px 0px 0px;
 	position: relative;
 	size:cover;
 	background: #eeeeee;
 	width: 1349px;
-	height: 960px;
+	height: 1000px;
 }
 
 #round1{
@@ -86,6 +86,15 @@ h4{
 	box-shadow: 0 3px 25px #888888;
 }
 
+#round1 img{
+	position: absolute;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	right: 2px;
+	left: 6px;
+}
+
 #round2{
 	color: grey;
 	position: relative;
@@ -98,6 +107,14 @@ h4{
 	margin-right: 90px;
 	height: 250px;
 	box-shadow: 0 3px 25px #888888;
+}
+
+#round2 img{
+	position: absolute;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	left: 366px;
 }
 
 #round3{
@@ -113,6 +130,14 @@ h4{
 	margin-bottom: 90px;
 	height: 250px;
 	box-shadow: 0 3px 25px #888888;
+}
+
+#round3 img{
+	position: absolute;
+	border: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	left: 806px;
 }
 
 a{
@@ -131,7 +156,6 @@ a{
 	width: 1349px;
 	height:125px;
 	border: none;
-	size: cover;
 }
 
 #footer{
@@ -142,5 +166,6 @@ a{
 	text-align: center;
 	background-color: #3b7868;
 	color: white;
+
 }
 
