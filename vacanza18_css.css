@@ -35,6 +35,12 @@ h4:hover {
 	color: white;
 }
 
+#navbar_buttons{
+	position: fixed;
+	margin-left: 900px; 
+	margin-right: 0px;
+}
+
 .button1 {
   float: right;	
   background-color: #3b7868;
@@ -80,7 +86,7 @@ h4:hover {
 .button2:hover {opacity: 1}
 
 .button3 {
-  float: right;	
+  float: right;
   background-color: #3b7868;
   border: 2px solid black;
   border-radius: 6px;
