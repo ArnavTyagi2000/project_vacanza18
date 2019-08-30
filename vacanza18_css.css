@@ -325,8 +325,6 @@ a{
 }
 
 #footerpic{
-	background: url("footer.png");
-	background-repeat: no-repeat;
   overflow: hidden;
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
