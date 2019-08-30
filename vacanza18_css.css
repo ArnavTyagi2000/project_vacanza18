@@ -1,12 +1,8 @@
-body{
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	background:url("background.png"); 
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-attachment: fixed;
-	background-size: cover;
+*{
+	margin: 0;
+	padding: 0;
 	font-family: Roboto, sans-serif;
+
 }
 
 pre{
@@ -33,6 +29,10 @@ h4:hover {
 	background-color: #3b7868;
 	cursor: pointer; 
 	color: white;
+}
+
+hr{
+	width: 800px;
 }
 
 #navbar_buttons{
@@ -115,8 +115,8 @@ h4:hover {
 .rbutton {
   display: inline-block;
   border-radius: 60px;
-  background-color: grey;
-  opacity: 0.5;
+  background-color: #3b7868;
+  opacity: 0.8;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -156,8 +156,8 @@ h4:hover {
 .sqbutton {
   display: inline-block;
   border-radius: 60px;
-  background-color: grey;
-  opacity: 0.5;
+  background-color: #3b7868;
+  opacity: 0.8;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -200,46 +200,57 @@ h4:hover {
    font-size: 30px;
 }
 
+#vaclogo {
+  margin-top: 25px;	
+  width: 100%;
+  height: 300px;
+}
+
 #vaclogo img{
-	padding-top: 70px;
-	width: 250px;
-	height: 250px;
-	text-align: center;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: width 2s, height 2s, transform 1.5s;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+  transition: width 2s, height 2s, transform 1.5s;
 }
 
 #vaclogo img:hover{
-	width: 270px;
-	height: 270px;
-	text-align: center;
-	transform: rotate(1440deg);
-	transform-origin: center center; 
+  width: 270px;
+  height: 270px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(1440deg);
+   -webkit-transform: rotate(1440deg); 
+    -moz-transform: rotate(1440deg); 
+    -o-transform: rotate(1440deg);
+    -ms-transform: rotate(1440deg);  
+transform-origin: center center; 
 }
 
 #vac{
-	border: none;
-	margin: 0px 0px 0px 0px;
-	padding: 50px 0px 0px 0px;
-	height: auto;
-	width: 50%;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+  border: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  height: auto;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #greybox{
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
+    background-image:linear-gradient(to bottom, rgba(128, 128, 128, 0.5), rgba(128, 128, 128, 0.5)),
+    url('background.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
 	position: top;
 	position: relative;
 	size: cover;
 	height: 600px;
 	width: 1349px;
-	background: grey;
-	opacity: 0.5;
 }
 
 #boxmain{
@@ -249,10 +260,10 @@ h4:hover {
 	size:cover;
 	background: #eeeeee;
 	width: 1349px;
-	height: 1000px;
+	height: 1100px;
 }
 
-#round1{
+#r1txt{
 	color: grey;
 	position: relative;
 	background: white;
@@ -262,20 +273,12 @@ h4:hover {
 	margin-left: 90px;
 	margin-top: 40px;
 	margin-right: 90px;
-	height: 250px;
+	height: 270px;
 	box-shadow: 0 3px 25px #888888;
+	display: block;
 }
 
-#round1 img{
-	position: absolute;
-	border: none;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	right: 2px;
-	left: 6px;
-}
-
-#round2{
+#r2txt{
 	color: grey;
 	position: relative;
 	background: white;
@@ -285,19 +288,12 @@ h4:hover {
 	margin-left: 90px;
 	margin-top: 40px;
 	margin-right: 90px;
-	height: 250px;
+	height: 270px;
 	box-shadow: 0 3px 25px #888888;
+	display: block;
 }
 
-#round2 img{
-	position: absolute;
-	border: none;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	left: 366px;
-}
-
-#round3{
+#r3txt{
 	color: grey;
 	position: relative;
 	background: white;
@@ -308,16 +304,9 @@ h4:hover {
 	margin-top: 40px;
 	margin-right: 90px;
 	margin-bottom: 90px;
-	height: 250px;
+	height: 270px;
 	box-shadow: 0 3px 25px #888888;
-}
-
-#round3 img{
-	position: absolute;
-	border: none;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	left: 806px;
+	display: block;
 }
 
 a{
