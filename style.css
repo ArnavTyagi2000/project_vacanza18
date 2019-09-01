@@ -260,7 +260,7 @@ transform-origin: center center;
 
 #boxmain{
 	margin: 0px 0px 0px 0px;
-	padding: 10px 0px 0px 0px;
+	padding: 10px 0px 100px 0px;
 	position: relative;
 	size:cover;
 	background: #eeeeee;
@@ -268,50 +268,30 @@ transform-origin: center center;
 	height: 100%;
 }
 
-#r1txt{
-  color: grey;
-  position: relative;
+.round{
   background: white;
+  position: relative;
+  height: 270px;
+
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 15px;
   margin-left: 90px;
   margin-top: 40px;
   margin-right: 90px;
-  height: 270px;
   box-shadow: 0 3px 25px #888888;
   display: block;
 }
 
-#r2txt{
-	color: grey;
-	position: relative;
-	background: white;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 15px;
-	margin-left: 90px;
-	margin-top: 40px;
-	margin-right: 90px;
-	height: 270px;
-	box-shadow: 0 3px 25px #888888;
-	display: block;
+.round_txt{
+  color: grey;
+  position: absolute;
+  
 }
 
-#r3txt{
-	color: grey;
-	position: relative;
-	background: white;
-	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 15px;
-	margin-left: 90px;
-	margin-top: 40px;
-	margin-right: 90px;
-	margin-bottom: 90px;
-	height: 270px;
-	box-shadow: 0 3px 25px #888888;
-	display: block;
+.round_pic{
+  position: absolute;
+  right: 20px;
 }
 
 a{
@@ -326,13 +306,13 @@ a{
 
 @keyframes imagef{
   0%{
-    transform: scale(1,1);
+    transform: scale(1);
   }
   50%{
-    transform: scale(1.2,1.2);
+    transform: scale(1.2);
   }
   100%{
-    transform: scale(1,1);
+    transform: scale(1);
   }
 }
 
